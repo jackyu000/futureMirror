@@ -143,7 +143,7 @@ const HealthSurvey = () => {
         <div className="survey-section">
           <h3>Your resting blood pressure, with or without treatment:</h3>
           <div className="helper-text">
-            If you're not sure, <a href="#" className="check-gateway">check Patient Gateway</a>.
+            <button className="check-gateway-btn">check Patient Gateway</button>
           </div>
           <div className="radio-group">
             <label>
@@ -184,7 +184,7 @@ const HealthSurvey = () => {
         <div className="survey-section">
           <h3>Your Hemoglobin A1c score:</h3>
           <div className="helper-text">
-            If you're not sure, <a href="#" className="check-gateway">check Patient Gateway</a>.
+            <button className="check-gateway-btn">check Patient Gateway</button>
           </div>
           <div className="radio-group">
             <label>
@@ -225,7 +225,7 @@ const HealthSurvey = () => {
         <div className="survey-section">
           <h3>Your cholesterol levels:</h3>
           <div className="helper-text">
-            If you're not sure, <a href="#" className="check-gateway">check Patient Gateway</a>.
+            <button className="check-gateway-btn">check Patient Gateway</button>
           </div>
           <div className="radio-group">
             <label>
@@ -256,7 +256,7 @@ const HealthSurvey = () => {
         <div className="survey-section">
           <h3>Your Body Mass Index (BMI)?</h3>
           <div className="helper-text">
-            If you're not sure, you can <a href="#" className="calculator-link">use this calculator</a>.
+            If you're not sure, you can <button className="calculator-link">use this calculator</button>.
           </div>
           <div className="radio-group">
             <label>

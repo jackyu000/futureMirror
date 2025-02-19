@@ -100,6 +100,23 @@
   text-decoration: underline;
 }
 
+.check-gateway-btn,
+.calculator-link {
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 0;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.check-gateway-btn:hover,
+.calculator-link:hover {
+  color: #0052a3;
+}
+
 .reset-btn {
   position: absolute;
   right: 20px;
