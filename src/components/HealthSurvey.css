@@ -1,0 +1,156 @@
+.health-survey {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.health-survey h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.survey-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid #e0e0e0;
+}
+
+.survey-section h3 {
+  color: #444;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.survey-section h4 {
+  color: #555;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.helper-text {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.radio-group label:hover {
+  background-color: #f0f0f0;
+}
+
+.radio-group input[type="radio"] {
+  margin-top: 3px;
+}
+
+.recommendations-list {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 15px 0;
+  border: 1px solid #e0e0e0;
+}
+
+.recommendations-list ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.recommendations-list li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.recommendations-list li:last-child {
+  margin-bottom: 0;
+}
+
+.check-gateway,
+.calculator-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+}
+
+.check-gateway:hover,
+.calculator-link:hover {
+  text-decoration: underline;
+}
+
+.reset-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.reset-btn:hover {
+  background-color: #f0f0f0;
+  text-decoration: underline;
+}
+
+.submit-btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin-top: 20px;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #0052a3;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .health-survey {
+    padding: 10px;
+  }
+  
+  .survey-section {
+    padding: 15px;
+  }
+  
+  .radio-group label {
+    font-size: 0.9em;
+  }
+  
+  .reset-btn {
+    top: 15px;
+    right: 15px;
+  }
+}

@@ -1,0 +1,84 @@
+.landing-page {
+  min-height: 100vh;
+  background-color: #7AB55C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.logo-container {
+  margin: 2rem 0;
+}
+
+.future-text {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.mirror-text {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+
+.description {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 1rem 0 2rem 0;
+}
+
+.start-button {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: white;
+  transform: scale(1.05);
+}
+
+.info-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-top: 3rem;
+  max-width: 800px;
+  text-align: left;
+}
+
+.info-box h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.info-box ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.info-box li {
+  margin-bottom: 1.5rem;
+}
+
+.info-box h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.info-box p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
